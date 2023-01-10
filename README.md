@@ -10,6 +10,7 @@ When researchers hunt on BBPs, in the recon phase many hosts with 403,404,401,et
 
 # Usage
 `cd parffuf`
+
 `bash parffuf.sh <hosts.txt> <wordlist.txt> <rate>`
 
 # Recommendations
