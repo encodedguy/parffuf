@@ -14,9 +14,9 @@ When researchers hunt on BBPs, in the recon phase many hosts with 403,404,401,et
 `bash parffuf.sh <hosts.txt> <wordlist.txt> <rate>`
 
 # Recommendations
-<hosts.txt>: should contains urls with newlines like this: https://rashahacks.com
-<wordlist.txt>: should contain a wordlist with directories which are probable to see, or are technologically mapped.
-<rate>: is in requests per second and depends on the program policy.
+* <hosts.txt>: should contains urls with newlines like this: https://rashahacks.com
+* <wordlist.txt>: should contain a wordlist with directories which are probable to see, or are technologically mapped.
+* <rate>: is in requests per second and depends on the program policy.
 
 # Credits
 @encodedguy
