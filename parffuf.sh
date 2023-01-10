@@ -1,6 +1,6 @@
 #echo $# arguments 
 if [ $# -ne 3 ]; 
-    then echo "[Syntax:] bash dirasha.sh <host.txt> <wordlist.txt> <rate>"
+    then echo "[Syntax:] bash parffuf.sh <host.txt> <wordlist.txt> <rate>"
     exit
 fi
 
