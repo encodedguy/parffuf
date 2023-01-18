@@ -6,12 +6,15 @@ Fuzz many live hosts with ffuf in different modes
 When researchers hunt on BBPs, in the recon phase many hosts with 403,404,401,etc. status codes arises. Most of the times we only hunt on hosts with 200 status codes. But, this way we leave the surface which is Forbidden to see and maybe some files and directories are visible there after scanning with some generic wordlists.
 
 # Installation
-`git clone https://github.com/encodedguy/parffuf`
+```
+git clone https://github.com/encodedguy/parffuf
+```
 
 # Usage
-`cd parffuf`
-
-`bash parffuf.sh <hosts.txt> <wordlist.txt> <rate>`
+```
+cd parffuf
+bash parffuf.sh <hosts.txt> <wordlist.txt> <rate>
+```
 
 # Recommendations
 * <hosts.txt>: should contains urls with newlines like this: https://rashahacks.com
